@@ -1,15 +1,26 @@
-Das Passwort muss mindestens 6 Zeichen lang sein und darf keine Leerzeichen enthalten. 
-Passwort muss min. 6 Zeichen haben. Muss Nummern, Buchstaben und ? oder ! enthalten.
-Die E-Mail-Adresse muss ein "@" und einen Punkt "." enthalten und mit st, ad oder as enden nach den punkt.
-Username nicht länger als 20 Zeichen
-Die Rollenverteilung erfolgt basierend auf der E-Mail-Endung:
-- -st für Student
-- -ad für Admin
-- -as für Assistent
+The password must be at least 6 characters long and must not contain spaces.  
+The password must include at least 6 characters and contain numbers, letters, and either "?" or "!".  
+The email address must contain "@" and a dot ".", and must end with **st**, **ad**, or **as** after the dot.  
+The username must not exceed 20 characters.  
 
-Die E-Mail-Adresse und der Name können mehrfach vorkommen, aber der Benutzername darf nur einmal vergeben werden. Groß- und Kleinschreibung des Benutzernamens ist bei der Anmeldung egal.
-Admin kann Datum einstellen. Assistent muss als erst registrieren und kann erst dann was tun, wenn ein admin ihn auswählt.
-Ein Admin kann mehrere Assistenten haben, aber ein Assistent kann nur einem Admin zugeordnet sein.
-Kann username, nachname und passwort ändern. Muss sein altes bzw aktuelles passwort eingeben zum Bestätigen.
-Es wird angenommen das, sobald ein Student bzw. Assistent nicht mehr Inskribiert ist, gilt die E-Mail-Adresse als ungültig und wird gelöscht. 
-Icons von https://www.flaticon.com/de/
+**Role assignment is based on the email ending:**  
+- **-st** for Student  
+- **-ad** for Admin  
+- **-as** for Assistant  
+
+The email address and name can occur multiple times, but the username must be unique.  
+Case sensitivity of the username does not matter during login.  
+
+**Permissions and rules:**  
+- An Admin can set dates.  
+- An Assistant must register first and can only act after being selected by an Admin.  
+- An Admin can have multiple Assistants, but each Assistant can only be assigned to one Admin.  
+
+**Updates:**  
+- Users can change their username, last name, and password, but they must enter their current password for confirmation.  
+
+**Deactivation of Email Addresses:**  
+It is assumed that once a Student or Assistant is no longer enrolled, their email address becomes invalid and will be deleted.  
+
+**Icons:**  
+Icons are from [Flaticon](https://www.flaticon.com/de/).  
